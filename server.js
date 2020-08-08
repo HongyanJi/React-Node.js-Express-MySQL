@@ -19,6 +19,13 @@ app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// call sync() method:
+const db = require("./app/models");
+// In development, you may need to drop existing tables and re-sync database. Just use force: true as following code:
+db.sequelize.sync({ force: true }).then(() => {
+      console.log("Drop and re-sync db.");
+    });
+
 // define a GET route which is simple for test.
 app.get("/", (req, res) => {
       res.json({ message: "Welcome to LibGuides application."});
