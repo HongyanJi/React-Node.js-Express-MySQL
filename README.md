@@ -28,3 +28,13 @@ $ npm install --save sequelize
 - [Download Offical MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
 - [ ] Using Postman to test all the Apis. 
 
+#### React.js Front-end
+- The App component is a container with React Router. It has navbar that links to routes paths. 
+- BooksList component gets and displays Books. Book component has form for editing Book's details based on :id. AddBook component has form for submission new Book. These Components call BookDataService methods which use axios to make HTTP requests and receive reponses.  
+##### Technology
+- React 
+- react-route-dom 
+- axios 
+- bootstrap
+- [ ] Implementation this React App
+
