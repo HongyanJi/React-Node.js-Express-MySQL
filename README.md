@@ -26,4 +26,5 @@ $ npm install express --save
 - Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more. <br /> 
 $ npm install --save sequelize
 - [Download Offical MySQL](https://dev.mysql.com/doc/refman/5.7/en/installing.html)
+- [ ] Using Postman to test all the Apis. 
 
