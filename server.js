@@ -31,6 +31,7 @@ app.get("/", (req, res) => {
       res.json({ message: "Welcome to LibGuides application."});
 });
 
+require("./app/routes/book.routes")(app);
 // listen on port 3000 for incoming requests.
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
