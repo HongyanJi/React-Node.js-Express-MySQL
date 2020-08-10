@@ -29,12 +29,18 @@ $ npm install --save sequelize
 - [ ] Using Postman to test all the Apis. 
 
 #### React.js Front-end
-- The App component is a container with React Router. It has navbar that links to routes paths. 
-- BooksList component gets and displays Books. Book component has form for editing Book's details based on :id. AddBook component has form for submission new Book. These Components call BookDataService methods which use axios to make HTTP requests and receive reponses.  
 ##### Technology
 - React 
 - react-route-dom 
 - axios 
 - bootstrap
+<br />
+Build a React.js CRUD Application to consume Web API, display and modify data with Router, Axios & Booststrap. 
+#### React.js App Component Diagram with Router & Axios
+- The App component is a container with React Router. It has navbar that links to routes paths.
+- BooksList component gets and displays Books.
+- Book component has form for editing Book’s details based on :id.
+- AddBook component has form for submission new Book.
+- These Components call BookDataService methods which use axios to make HTTP requests and receive responses.
+<br />
 - [ ] Implementation this React App
-
